@@ -67,7 +67,7 @@ if st.button("Check Password"):
             st.error("🔴 Your password is weak. Please make it stronger.")   
 
         if feedback:
-            st.markdown("## Improvement Suggestions")
+            st.markdown("## 💡Improvement Suggestions")
             for tip in feedback:
                 st.write(tip) 
     else:
